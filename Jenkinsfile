@@ -11,6 +11,13 @@ pipeline {
 			}
 			
 		}
+		
+		stage('Build') {
+			steps{
+				echo "build World..!!"
+			}
+			
+		}
 	}
 
 }
